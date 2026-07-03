@@ -1,0 +1,141 @@
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.container1  {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero-subtext {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.session-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 24px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 16px;
+}
+
+.card {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+}
+
+.card p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: flex-start;
+    padding: 160px;
+}
+
+.quote {
+    color: #1F2937;
+}
